@@ -309,19 +309,4 @@ form {
 }
 /* formulaier fini ici */
 
-/* page d'aceuill commence */
-
-.containerService {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;  
-}
-.imgService {
-    width: 560px;
-    height: 315px;
-}
-.textService {
-    width: 40%;
-
-}
+page d
