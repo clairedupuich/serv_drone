@@ -644,7 +644,5 @@ form {
     justify-content: space-around;
 }
 .block-partner {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-   
+    di
 }

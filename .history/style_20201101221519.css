@@ -595,9 +595,7 @@ form {
     margin-left: 25%;
 }
 /* page d'aceuill commence */
-.service_of_produit {
-    margin: 3em 5em;
-}
+.
 .containerService {
     display: flex;
     flex-direction: row;
@@ -635,16 +633,4 @@ form {
 .imgInovation {
     width: 50%;
     min-width: 20em;
-}
-
-.partners {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.block-partner {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-   
 }
