@@ -600,7 +600,8 @@ form {
     text-align: center;
 }
 .service_of_produit p {
-    margin-bottom: 2em;   
+    margin-bottom: 2em;
+   
 }
 .titreAceuille {
     margin: 2em auto 1em;
@@ -612,8 +613,7 @@ form {
     width:70%;
     border-radius: 3em;
     margin-bottom: 2em;
-   /*  shape-outside: content-box;
-	shape-margin: 1rem; */
+    
 }
 .textService {
     text-align: center;

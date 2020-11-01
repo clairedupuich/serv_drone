@@ -612,8 +612,8 @@ form {
     width:70%;
     border-radius: 3em;
     margin-bottom: 2em;
-   /*  shape-outside: content-box;
-	shape-margin: 1rem; */
+    shape-outside: content-box;
+	shape-margin: 1rem;
 }
 .textService {
     text-align: center;
