@@ -596,30 +596,20 @@ form {
 }
 /* page d'aceuill commence */
 .service_of_produit {
-    margin: 5em auto;
-    text-align: center;
-}
-.service_of_produit p {
-    margin-bottom: 2em;
-
-    
-}
-.titreAceuille {
-    margin: 2em auto 1em;
+    margin: 3em 5em;
 }
 .containerService {
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;  
 }
 .imgService {
-    width:70%;
-    border-radius: 3em;
-    margin-bottom: 2em;
-    
+    width: 560px;
+    height: 315px;
 }
 .textService {
-    text-align: center;
-    margin-bottom: 2.5em;
-    padding: 0 14%;
+    width: 40%;
 
 }
 .block-partner {
@@ -656,26 +646,5 @@ form {
 .block-partner {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 2em auto;
-}
-.block-partner p {
-    padding-top: 5em;
-    font-weight: bolder;
-}
-.press {
-    background-color: #B8D4D4;
-    padding-top: 1em;
-    padding-bottom: 4em;
-}
-.titre_press {
-    margin: 2em auto;
-    text-align: center;
-}
-.container_press {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 1em 20%;
-   
+    margin: 2em au;
 }

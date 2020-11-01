@@ -601,8 +601,8 @@ form {
 }
 .service_of_produit p {
     margin-bottom: 2em;
-
-    
+    font-weight: bolder;
+    text-align: left;
 }
 .titreAceuille {
     margin: 2em auto 1em;

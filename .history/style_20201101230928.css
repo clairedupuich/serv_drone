@@ -599,13 +599,9 @@ form {
     margin: 5em auto;
     text-align: center;
 }
-.service_of_produit p {
-    margin-bottom: 2em;
-
-    
-}
+.service_of_produit p {}
 .titreAceuille {
-    margin: 2em auto 1em;
+    margin: 2em auto;
 }
 .containerService {
     text-align: center;
