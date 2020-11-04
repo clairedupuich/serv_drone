@@ -1,10 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-body {
-    cursor: url(img/ajtzl-ji4cw-001.ico),pointer;
-}
+
 /* header commence ci-desous */
 .navLogo {
     display: flex;
@@ -13,7 +7,6 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 1.5em;
-    cursor: pointer;
 }
 .logo {
     width: 5em;
