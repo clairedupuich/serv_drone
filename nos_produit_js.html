@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <title>Serv'Drone</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header>
+    <section class="navLogo">
+      <a href="aceuille.html"><img src="img/Group 5.png" class="logo"></a> 
+      <div class="navAndIcon">
+        <ul class="nav">
+          <li class=""> <a href="qui_somme_nous.html"> Qui sommes-nous ?</a></li>
+          <li class=""> <a href="nos_produit_js.html"> Nos services</a></li>
+          <li class=""> <a href="his.html"> Histoire</a></li>
+          <li class=""> <a href="evenements.html"> Évènements</a></li>
+          <li class=""> <a href="support.html"> Support</a></li>
+          <li class=""> <a href="contact.html"> Contact</a></li>
+        </ul>
+
+        <div class="iconHeader">
+          <a href="" class="iconHaut"><img src="img/Vector.png" alt=""></a>
+          <a href="" class="iconHaut"><img src="img/Vector(1).png" alt=""></a>
+          <a href="" class="iconHaut espace_ic"><img src="img/Vector(2).png" alt=""></a>
+
+          <a href="login.php" class="iconHaut espace_ico "><img src="img/conecter.png" class="ico_right" alt=""></a>
+          <a href="register.php" class="iconHaut"><img src="img/inscrir.png" class="ico_right" alt=""></a>
+         
+          <div class="dropdown iconHaut">
+            <a href="" class="weight-light" id="cart-link">
+                <img src="img/panier.png" class="ico_right" alt="" >
+                <span id="nb-cart-items"></span>
+            </a>
+            <div class="dropdown-content">
+              <h2 class="title-medium center">Votre Panier</h2>
+              <div id="panier">
+                
+              </div>
+              <p id="total"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="grandImg">
+      <h2>Serv’Drone</h2>
+      <p class="inHeaderP">Petite phrase d’accroche lorem ipsum s simply dummy text
+        of the printing and typesetting industry.</p>
+    </section>
+  </header>
+
+  <div class="container">
+    <h2 class="title text-center">Nos services</h2>
+
+    <div class="products">
+      <div class="product">
+        <img src="img/img1.png" alt="">
+        <h3 class="product-title title-medium" id="product-name">Serv'Drone Class 1</h3>
+        <p class="product-details">
+
+          Garantie 2 ans
+          <br>
+          Services :
+          <ul>
+            <li>-Caméra de surveillance</li>
+            <li>-Assistance du stationnement de votre véhicule</li>
+            <li>-Escortez vos enfants</li>
+            <li>-Promener vos animaux</li>
+            <li>-Récupérer vos colis</li>
+            <li>-Retrouver vos clés égarées</li>
+            <li>-Raconte des histoires à vos enfants</li>
+            <li>-Assistance préparation de vos repas</li>
+            <li>-Visiophonie</li>
+          </ul>
+        </p>
+        <div class="bottom-product">
+          <p class="price" id="product-price">
+            299 Euros
+          </p>
+          <input  type="number" name="quantity" id="quantity" min="1" value="1" class="product_number">
+          <a href="#" class="btn"  data-product-id="first" >Commander</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="img/img2.png" alt="">
+        <h3 class="product-title title-medium" id="product-name-plus">Serv’ Drone Plus</h3>
+        <p class="product-details">
+
+          Garantie 2 ans
+          <br>
+          Services :
+          <ul>
+            <li>Serv’ Drone class 1 inclus</li>
+            <li>- Repassage de vos vêtements</li>
+            <li>-Dépoussiérage de vos meubles</li>
+            <li>-Navette Domicile/Pressing</li>
+            <li>-Nettoyage de vos animaux</li>
+            <li>-Pulvérisateur automatique d’huiles essentielles </li>
+          </ul>
+        </p>
+        <div class="bottom-product">
+          <p class="price" id="product-price-plus">
+            399 Euros
+          </p>
+          <input  type="number" name="quantity" id="quantity-plus" min="1" value="1" class="product_number">
+          <a href="#" class="btn" data-product-id="sencond" >Commander</a>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="img/img3.png" alt="">
+        <h3 class="product-title title-medium"  id="product-name-delux">Serv’ Drone Deluxe</h3>
+        <p class="product-details">
+
+          Garantie 5 ans
+          <br>
+          Services :
+          <ul>
+            <li>Serv’ Drone class 1 inclus</li>
+            <li>Serv’ Drone Plus inclus</li>
+            <li>-Escortez vos enfants</li>
+            <li>-Surveillance de votre domicile intérieur et extérieur</li>
+            <li>-Mise en relation avec les services de Police</li>
+            <li>-Neutralisation électrique des assaillants </li>
+            <li>-Pose des pièges de manière aléatoire </li>
+            <li>-Dissimulation des preuves </li>
+          </ul>
+        </p>
+        <div class="bottom-product">
+          <p class="price" id="product-price-delux">
+            299 Euros
+          </p>
+          <input  type="number" name="quantity" id="quantity-delux" min="1" value="1" class="product_number">
+          <a href="#" class="btn" data-product-id="dulux" >Commander</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-light">
+    <div class="container application">
+      <h2 class="title text-center">Application</h2>
+      <p>
+        Les drones se dirigent via une application disponible sur Android et IOS. <br>
+        L’application est <b>gratuite</b> et <b>obligatoire</b>.
+        Un guide d’utilisation est disponible au démarrage de l’application.
+      </p>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="textFooterC">
+      <div class="texFooter">
+        <a href="" class="textFooterEle">Rubriques</a>
+        <a href="" class="textFooterEle">Qui sommes-nous ? </a>
+        <a href="" class="textFooterEle">Nos services</a>
+        <a href="" class="textFooterEle">Évènements</a>
+        <a href="" class="textFooterEle">Histoire</a>
+
+
+      </div>
+      <div class="texFooter">
+        <a href="" class="textFooterEle">Support</a>
+        <a href="" class="textFooterEle">Contact</a>
+      </div>
+      <div class="texFooter">
+        <a href="" class="textFooterEle">Mentions légales</a>
+        <a href="" class="textFooterEle">Conditions générales d’utilisation</a>
+        <a href="" class="textFooterEle">Conditions générales de vente</a>
+      </div>
+    </div>
+    <div class="iconsFooter">
+      <img src="img/Vector 1.png" alt="" class="iconFooter">
+      <img src="img/Vector2.png" alt="" class="iconFooter">
+      <img src="img/Vector 3.png" alt="" class="iconFooter">
+    </div>
+  </footer>
+  <script src="cart.js"></script>
+</body>
+
+</html>
