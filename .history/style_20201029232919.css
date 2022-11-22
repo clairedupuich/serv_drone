@@ -1,0 +1,406 @@
+/* header commence ci-desous */
+.navLogo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5em;
+}
+.logo {
+    width: 5em;
+    height: 5em;
+    margin-left: 0;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0;   
+}
+.nav > li {
+    text-decoration: none;
+    transition-property: transform;
+    transition-duration: .2s;
+    transform: scale(1);
+    padding: 1em;
+    list-style: none;
+}
+.nav > li > a {
+    list-style: none;
+    color:black;
+    text-decoration: none;
+    
+}
+.nav > li:hover {
+    transform: scale(1.3);
+    color: rgb(10, 23, 204);
+
+}
+
+.nav > li > a:hover {
+    transform: scale(1.3);
+    color: rgb(10, 23, 204);
+
+}
+.iconHeader {
+    text-align: end;
+   margin-right: 3em;
+}
+.iconHaut {
+    margin-left: 1em;   
+}
+.grandImg {
+    background-image: url(img/headerimg.png);
+    border-top: 7px solid #0F4C81;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: center;
+}
+.grandImg > h2 {
+    color: snow;
+    font-size:3em ;
+    margin: 0 auto 1em 1em;
+    padding-top: 2em;
+}
+.inHeaderP {
+    width: 40%;
+    margin-bottom: 7em;
+    padding-bottom: 8%;
+    padding-left: 3.5%;
+}
+@media screen and (max-width: 770px) {
+    .inHeaderP {
+        width: 70%;
+        margin-bottom: 6em;
+        padding: 8% auto;       
+    }
+    .grandImg > h2 {
+        color: snow;
+        font-size:2em ;
+        margin: 0 auto 1em 1em;
+        padding-top: 2em;
+    }
+}
+/* page support commence */
+*{
+    margin: 0;
+    padding: 0;
+}
+.videoDiv,
+.iconText, {
+    margin-bottom: 7em;
+}
+.contenueSupport {
+   margin: 4em auto; 
+   padding: 1em 4em;
+   text-align: center;
+}
+
+.videoDiv > h2 {
+   margin-bottom: 2em;
+}
+
+/* les icons de page support commence */
+.titreIcon {
+    color: snow;
+    background-color: #0F4C81;
+    margin: 5em 32%;
+    padding: .5em;
+    width: 35%;
+}
+
+.iconText {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.fig {
+    width: 25%;
+    margin-bottom: 7em;
+}
+.icon {
+    margin-bottom: 2em;
+}
+.icon1,
+.icon4 {
+    margin-bottom: 3em;
+}
+.fig > figcaption {
+    text-align: center;
+    padding: 2em;
+}
+
+.repaire {
+    margin-bottom: 4em;
+    padding: 1em 15em;
+}
+.teleMail {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tele,
+.mail {
+    color: snow;
+    background-color: #0F4C81;
+    margin-bottom: 3em;
+    padding: .5em;
+    width: 33%;
+}
+
+/* page qui somme nous commence */
+.quiHaut {
+    text-align: center;
+    background-color: #031322;
+    background-clip: border-box;
+    padding: 3em 17%;
+    color: snow;
+}
+.littleTitre {
+    font-weight: bold;
+    padding: 2em;
+    font-size: 1.2em;
+}
+.quiText {
+    padding-bottom: 9em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+.chefs {
+    /* background-color: #031322; */
+    background-clip: border-box;
+    padding:2em 8%;
+   /*  color: snow; */
+}
+.chefs > h4 {
+    margin-left: 4em;
+}
+.man {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 6em;
+}
+.imgMan2 {
+    display: none;
+}
+.manText {
+    width: 35%;
+    text-align: justify;
+   
+}
+@media screen and (max-width: 380px){
+    .manText {
+        width: 65%;
+        text-align: justify;
+       
+    }
+    .imgMan2 {
+        display: block;
+    }
+    .imgManComputer {
+        display: none;
+    }
+}
+
+/* footer commence */
+footer {
+    
+    color: snow;
+    margin-top: 8em;
+}
+.textFooterC {
+    background-color: #031322;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+.texFooter {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.7em;
+    background-clip: border-box;
+}
+/* .textFooter2 {
+    margin-right: 19em;
+} */
+.textFooterEle {
+    text-decoration: none;
+    list-style: none;
+    color: snow;
+}
+.iconsFooter {
+    background-color: #0F4C81;
+    text-align: center;
+}  
+.iconFooter{
+   padding: 0.9em;
+}
+
+/* page contact commence */
+.contenueContact {
+    padding:2em 9%;
+    background-color: #f2f3f3;
+    background-clip: border-box;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 3em;
+}
+.contact > p {
+    background-color: #ffffff;
+    padding: 10% 2em;
+    border-radius: 3em;
+    margin-bottom: 1.5em;
+   
+}
+.contact > p > span {
+    font-size: 1.5em;
+    display: block;
+    margin-bottom: 1em;
+}
+.contact_img {
+    border-radius: 3em;
+    width: 40%;
+    min-width: 20em;
+}
+
+/* formulaire ci-desous */
+.cont h2 {
+    margin: 6em auto 2em;
+    text-align: center;
+    width: 80%;
+}
+
+.hform {
+    
+    background-image: url(img/drone2.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+}
+
+.cont h3 {
+    margin-bottom: 1em;
+}
+
+.contat-p {
+    padding: 8px auto;
+}
+
+form {
+    margin-top: 1.5em;
+
+}
+
+.nomemail {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.form-nom {
+    width: 40%;
+    min-width: 16em;
+}
+
+.form-emil {
+    width: 40%;
+    margin-right:.5em;
+    min-width: 16em;
+}
+
+.name {
+
+    color: rgb(39, 37, 37);
+    padding: 1em;
+    width: 100%;
+    margin: 0.7em auto;
+}
+
+.textarea {
+    width: 92%;
+    padding: 1.5em;
+    font-size: 1em;
+    margin-bottom: 2em;
+    font-style: italic;
+
+}
+
+.contact-submit input {
+    padding: .6em;
+    font-size: 1em;
+    background-color: #febf01;
+    border: darkslategrey solid 1px;
+    box-shadow: 2px 3x 6px black;
+    border-radius: 3px;
+    color: cornsilk;
+    cursor: pointer;
+}
+@media screen and (max-width: 556px) {
+    footer {
+        margin-top: 5em;
+        text-align: center;
+    }
+    .textFooterC {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 3em;
+        padding-bottom: 2em;
+    }
+    .texFooter {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.7em;
+        background-clip: border-box;
+    }
+   
+    .cont {
+        background-image: url(img/drone2.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: top;
+    }
+    .hform {
+        
+        background-image: url();
+    }   
+   
+    .textarea {
+       /*  width: 92%; */
+    }
+    
+}
+/* formulaier fini ici */
+
+/* page d'aceuill commence */
+
+.containerService {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+.imgService {
+    width: 560px;
+    height: 315px;
+}
+.textService {
+    width: 40%;
+
+}
